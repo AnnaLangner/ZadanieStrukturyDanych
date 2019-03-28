@@ -1,12 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
 	padding: 10px;
 	text-align: center;
-
+	
 	.container {
+		display: flex;
+		width: 100%;
+  		margin: auto;
+  		padding: 15px;
+  		background-color: gray;
 
 		.highlighted {
 			background: lime;
-			display: inline-block;
+			display: inline-flex;
 			margin: 10px;
 			width: 200px;
 			border: 1px solid #000;
@@ -21,7 +32,7 @@ body {
 		}
 
 		.special-header {
-			display: inline-block;
+			display: inline-flex;
 			margin: 10px;
 			width: 200px;
 			border: 1px solid #000;
@@ -43,7 +54,7 @@ body {
 
 		.important {
 			opacity: 1;	
-			display: inline-block;
+			display: inline-flex;
 			margin: 10px;
 			width: 200px;
 			border: 1px solid #000;
