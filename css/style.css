@@ -2,16 +2,16 @@
 
 body { padding: 10px; text-align: center; }
 
-body .container { display: -ms-flexbox; display: flex; width: 100%; margin: auto; padding: 15px; background-color: gray; }
+body .container { display: block; width: 100%; margin: auto; padding: 15px; background-color: gray; }
 
-body .container .highlighted { background: lime; display: -ms-inline-flexbox; display: inline-flex; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; }
+body .container .box { display: inline-block; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; }
+
+body .container .highlighted { background: lime; }
 
 body .container .highlighted header { display: block; border-bottom: 1px solid #000; }
 
-body .container .special-header { display: -ms-inline-flexbox; display: inline-flex; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; }
-
 body .container .special-header header { display: block; border-bottom: 1px solid #000; font-weight: bold; background: yellow; }
 
-body .container .important { opacity: 1; display: -ms-inline-flexbox; display: inline-flex; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; }
+body .container .important { opacity: 1; }
 
 body .container .important header { display: block; border-bottom: 1px solid #000; }

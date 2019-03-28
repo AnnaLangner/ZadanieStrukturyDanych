@@ -7,24 +7,27 @@
 body {
 	padding: 10px;
 	text-align: center;
-	
+
 	.container {
-		display: flex;
+		display: block;
 		width: 100%;
   		margin: auto;
   		padding: 15px;
   		background-color: gray;
 
-		.highlighted {
-			background: lime;
-			display: inline-flex;
+		.box{
+			display: inline-block;
 			margin: 10px;
 			width: 200px;
 			border: 1px solid #000;
 			min-height: 100px;
 			text-align: center;
 			vertical-align: top;
+		}
 
+		.highlighted {
+			background: lime;
+			
 			header {
 				display: block;
 				border-bottom: 1px solid #000;
@@ -32,13 +35,7 @@ body {
 		}
 
 		.special-header {
-			display: inline-flex;
-			margin: 10px;
-			width: 200px;
-			border: 1px solid #000;
-			min-height: 100px;
-			text-align: center;
-			vertical-align: top;
+			
 
 			header {
 				display: block;
@@ -54,14 +51,7 @@ body {
 
 		.important {
 			opacity: 1;	
-			display: inline-flex;
-			margin: 10px;
-			width: 200px;
-			border: 1px solid #000;
-			min-height: 100px;
-			text-align: center;
-			vertical-align: top;
-
+			
 			header {
 				display: block;
 				border-bottom: 1px solid #000;
