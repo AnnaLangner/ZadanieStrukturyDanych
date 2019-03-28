@@ -35,6 +35,8 @@ var data = [
   
 var output = document.getElementById('page-wrapper');
 
+	output.innerHTML = "<div class="box"></div>";
+
   	/*var headerClickCallback = function(event){
 		this.parentElement.classList.toggle('highlighted');
 	};
