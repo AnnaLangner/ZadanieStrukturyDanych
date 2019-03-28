@@ -4,7 +4,7 @@ body { padding: 10px; text-align: center; }
 
 body .container { display: block; width: 100%; margin: auto; padding: 15px; background-color: white; }
 
-body .container .box { display: inline-block; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; }
+body .container .box { display: inline-block; margin: 10px; width: 200px; border: 1px solid #000; min-height: 100px; text-align: center; vertical-align: top; opacity: 0.7; }
 
 body .container .box header { display: block; border-bottom: 1px solid #000; }
 

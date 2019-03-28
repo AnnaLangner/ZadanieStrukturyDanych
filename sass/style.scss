@@ -23,6 +23,7 @@ body {
 			min-height: 100px;
 			text-align: center;
 			vertical-align: top;
+			opacity: 0.7;
 
 			header {
 				display: block;
@@ -34,8 +35,7 @@ body {
 			background: lime;
 		}
 
-		.special-header {
-			
+		.special-header {		
 
 			header {
 				font-weight: bold;
