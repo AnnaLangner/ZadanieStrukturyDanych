@@ -13,9 +13,9 @@ body {
 		width: 100%;
   		margin: auto;
   		padding: 15px;
-  		background-color: gray;
+  		background-color: white;
 
-		.box{
+		.box {
 			display: inline-block;
 			margin: 10px;
 			width: 200px;
@@ -23,39 +23,28 @@ body {
 			min-height: 100px;
 			text-align: center;
 			vertical-align: top;
-		}
 
-		.highlighted {
-			background: lime;
-			
 			header {
 				display: block;
 				border-bottom: 1px solid #000;
 			}
+		}
+
+		.highlighted {
+			background: lime;
 		}
 
 		.special-header {
 			
 
 			header {
-				display: block;
-				border-bottom: 1px solid #000;
 				font-weight: bold;
 				background: yellow;
-			}
-
-			p {
-
 			}
 		}
 
 		.important {
 			opacity: 1;	
-			
-			header {
-				display: block;
-				border-bottom: 1px solid #000;
-			}
 		}
 	}
 }
