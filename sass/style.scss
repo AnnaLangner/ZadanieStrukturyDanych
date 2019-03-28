@@ -1,0 +1,60 @@
+body {
+	padding: 10px;
+	text-align: center;
+
+	.container {
+
+		.highlighted {
+			background: lime;
+			display: inline-block;
+			margin: 10px;
+			width: 200px;
+			border: 1px solid #000;
+			min-height: 100px;
+			text-align: center;
+			vertical-align: top;
+
+			header {
+				display: block;
+				border-bottom: 1px solid #000;
+			}
+		}
+
+		.special-header {
+			display: inline-block;
+			margin: 10px;
+			width: 200px;
+			border: 1px solid #000;
+			min-height: 100px;
+			text-align: center;
+			vertical-align: top;
+
+			header {
+				display: block;
+				border-bottom: 1px solid #000;
+				font-weight: bold;
+				background: yellow;
+			}
+
+			p {
+
+			}
+		}
+
+		.important {
+			opacity: 1;	
+			display: inline-block;
+			margin: 10px;
+			width: 200px;
+			border: 1px solid #000;
+			min-height: 100px;
+			text-align: center;
+			vertical-align: top;
+
+			header {
+				display: block;
+				border-bottom: 1px solid #000;
+			}
+		}
+	}
+}
