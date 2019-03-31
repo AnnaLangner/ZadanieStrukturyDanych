@@ -35,16 +35,25 @@ var data = [
   
 var output = document.getElementById('page-wrapper');
 
-	output.innerHTML = "<div class="box"></div>";
+for (var i = 0; i < data.length; i++) {
 
-  	/*var headerClickCallback = function(event){
-		this.parentElement.classList.toggle('highlighted');
-	};
+	var box = document.createElement('div');
 
-	var boxes = document.querySelectorAll('.box');
+	box.id = data[i].id;
 
-	for (var i = 0; i < boxes.length; i++) {
-		var boxHeader = boxes[i].querySelector('header');
-		boxHeader.addEventListener('click', headerClickCallback);
-	}*/
+	var header = document.createElement('header');
+	header.innerHTML = data[i].title;
+	box.appendChild(header);
 
+	var paragraph = document.createElement('p');
+	paragraph.innerHTML = data[i].content;
+	box.appendChild(paragraph);
+
+	box.classList.add('box');
+	for (var j = 0; j < data[i].categories.length; j++) {
+		box.classList.add(data[i].categories[j]);
+	}
+
+
+	output.appendChild(box);
+}
