@@ -45,14 +45,6 @@ for (var i = 0; i < data.length; i++) {
 	header.innerHTML = data[i].title;
 	box.appendChild(header);
 
-	// var paragraph = document.createElement('p');
-	// paragraph.innerHTML = data[i].content;
-	// box.appendChild(paragraph);
-
-	// box.classList.add('box');
-	// for (var j = 0; j < data[i].categories.length; j++) {
-	// 	box.classList.add(data[i].categories[j]);
-	// }
 	box.innerHTML += data[i].content;
 	box.className = 'box ' + data[i].categories.join(' ');
 
